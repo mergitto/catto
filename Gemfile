@@ -17,6 +17,9 @@ gem 'kaminari'
 gem 'redis', '~> 4.0'
 gem 'bcrypt', '~> 3.1.7'
 gem 'mini_magick', '~> 4.8'
+gem 'webpacker', ">= 4.0.x"
+gem 'bootsnap', require: false
+
 
 group :test do
   gem 'database_rewinder'
